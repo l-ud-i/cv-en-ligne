@@ -17,16 +17,24 @@
 <body class="body">
     <header class="header">
         <a href="index.html"><img class="header__logo" src="img/logo.png" alt="Logo"></a>
-        <p class="header__ttl">Ludivine Tournevache</p>
+        <h1 class="header__ttl">Ludivine Tournevache</h1>
         <a href="#"><img class="header__menu" src="img/menu.svg" alt="menu"></a>
 
         <a class="header__button button-cta" href="portfolio.html">portfolio</a>
         <a class="header__button button-cta" href="contact.html">contact</a>
     </header>
 
+    <nav class="nav">
+        <a class="nav__link" href="#resume">Présentation</a>
+        <a class="nav__link" href="#skills">Compétences</a>
+        <a class="nav__link" href="#training">Formations</a>
+        <a class="nav__link" href="#digital">Expériences Digitales</a>
+        <a class="nav__link" href="#work">Expériences Professionnelles</a>
+    </nav>
+
     <section class="section">
         <article class="section__art">
-            <h1 class="section__ttl">Présentation</h1>
+            <h2 class="section__ttl" id="resume">Présentation</h2>
             <div class="section__content">
                 <p class="section__text">Passionnée par la création de contenus et la gestion de projet, je travaille
                     par
@@ -36,16 +44,18 @@
                     Force de propositions, rigoureuse et créative, je m'engage totalement dans les différents projets
                     qui me
                     sont confiés.<br>
-                    <br>Ma devise :<br>
                 </p>
                 <img class="section__picture" src="img/portrait.png" alt="Ludivine">
             </div>
         </article>
+        <br>
+        <p class="section__text">Ma devise :
+        <p>
         <p class="section__text-important">Don't surrender, be better !</p>
     </section>
 
     <section class="section">
-        <h1 class="section__ttl">Compétences</h1>
+        <h2 class="section__ttl" id="skills">Compétences</h2>
         <ul class="section__text section__lst">
             <li class="section__lst-itm">
                 <p>Intégration HTML / CSS</p>
@@ -55,11 +65,15 @@
                 </div>
             </li>
             <li class="section__lst-itm">
-                <p>Utilisation de Visual Code</p>
-                <img src="img/visualcode.svg" alt="logo visualcode">
+                <p>Javascript</p>
+                <img src="img/js_logo.png" alt="logo Javascript">
             </li>
             <li class="section__lst-itm">
-                <p>Création d'un site sous Wordpress</p>
+                <p>Boostrap</p>
+                <img src="img/boostrap.png" alt="logo Javascript">
+            </li>
+            <li class="section__lst-itm">
+                <p>Création de site sous Wordpress</p>
                 <img src="img/wordpress.svg" alt="logo wordpress">
             </li>
             <li class="section__lst-itm">
@@ -97,7 +111,7 @@
     </section>
 
     <section class="training">
-        <h1 class="training__ttl">Formations</h1>
+        <h2 class="training__ttl" id="training">Formations</h2>
         <ul class="training__lst">
             <li class="training__lst-item">
                 <p>Formation Développeur Web et Web Mobile<br>Créative - Caen</p>
@@ -117,12 +131,58 @@
                 <p>DEES Marketing</p>
                 <time class="training__date">2005-2006</time>
         </ul>
-        <a class="button-cta " href="#.html">portfolio</a>
+        <a class="button-cta " href="portfolio.html">portfolio</a>
+    </section>
+
+    <section class="section">
+        <article class="section__art">
+            <h2 class="section__ttl" id="digital">Expériences Digitales</h2>
+            <div class="section__content">
+                <ul class="exp__lst">
+                    <li class="exp__ttl">Nintendo-Town (59) | Depuis 2017</li>
+                    <li class="exp__itm">Créations de contenus pour les réseaux sociaux et site web</li>
+                    <li class="exp__itm">Administration, gestion et planification sur le site Wordpress</li>
+                    <li class="exp__itm exp__itm--pad">Optimisation du référencement du site</li>
+                    </li>
+                    <li class="exp__ttl">Association Project Conquerors (84) | Depuis
+                        2022</li>
+                    <li class="exp__itm">Administration de tournois E-Sport online/offline</li>
+                    <li class="exp__itm exp__itm--pad">Modération des évènements sous le forum Discord</li>
+                    </li>
+                    <li class="exp__ttl">Badminton Menneval (27) | 2016 - 2019</li>
+                    <li class="exp__itm">Création de contenus pour Facebook</li>
+                    <li class="exp__itm">Refonte du mode d'inscription (online)</li>
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </section>
+
+    <section class="section">
+        <article class="section__art">
+            <h2 class="section__ttl" id="work">Expériences Professionnelles</h2>
+            <div class="section__content">
+                <ul class="exp__lst">
+                    <li class="exp__ttl">Conseillère Banque Assurances <br>
+                        Crédit Agricole Normandie-Seine (27) | 2007 - 2022</li>
+                    <li class="exp__itm">Création de visuels et vidéos</li>
+                    <li class="exp__itm">Développer, conseiller et animer un portefeuille clients</li>
+                    <li class="exp__itm exp__itm--pad">Fidélisation des clients</li>
+                    </li>
+                    <li class="exp__ttl">Assistante Marketing <br>
+                        C. Commercial Evry 2 (91) | 2005 - 2006</li>
+                    <li class="exp__itm">Conception de supports de communication</li>
+                    <li class="exp__itm">Coordination des animations sur site</li>
+                    </li>
+                </ul>
+            </div>
+        </article>
     </section>
 
     <footer class="footer">
         <div class="footer__cta">
-            <a href="https://fr.linkedin.com/"><img class="footer__ico" src="img/linkedin.png" alt="logo linkedin"></a>
+            <a href="https://www.linkedin.com/in/ludivine-tournevache"><img class="footer__ico" src="img/linkedin.png"
+                    alt="logo linkedin"></a>
             <a class="button-cta" href="contact.html">contact</a>
         </div>
         <div>
