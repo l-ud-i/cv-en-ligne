@@ -181,7 +181,7 @@ h6 {
 
 .img-reduce {
     width: auto;
-    height: 150px;
+    height: 200px;
 }
 
 @media screen and (min-width: 768px) {
