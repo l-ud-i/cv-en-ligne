@@ -124,6 +124,7 @@ h6 {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 1.5rem;
+    gap: 1rem;
 }
 
 .nav__link {
@@ -335,9 +336,9 @@ h6 {
     font-family: 'Koho', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin: 1rem;
-    padding: .5rem;
+    padding: 1.5rem;
     text-decoration: none;
     align-self: center;
 }
@@ -346,6 +347,20 @@ h6 {
     .section__text-important {
         font-size: 1.8rem;
     }
+}
+
+.button-cta-footer {
+    color: var(--fouth-color);
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    font-family: 'Koho', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    align-self: center;
 }
 
 /* EXP */
