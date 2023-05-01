@@ -50,14 +50,16 @@ h6 {
 
 .btn {
     text-transform: uppercase;
+    font-size: 1.5rem;
     padding: 0.75rem;
     color: rgb(255, 115, 0);
 }
 
 .btn-save {
+    font-size: 1.25rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 1rem;
     background-color: rgb(77, 145, 64);
     color: beige;
 }
@@ -73,8 +75,9 @@ h6 {
 }
 
 .btn-reset {
+    font-size: 1.25rem;
     margin-top: 1rem;
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 1rem;
     background-color: rgb(173, 51, 51);
     color: beige;
 }
