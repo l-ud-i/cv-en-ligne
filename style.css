@@ -104,6 +104,19 @@ h6 {
     }
 }
 
+.header__cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .header__btn-cta {
+        display: none;
+    }
+}
+
 /* NAVBAR */
 
 .nav {
