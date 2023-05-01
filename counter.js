@@ -26,7 +26,7 @@ const saveBtn = document.getElementById('js-save-btn');
 saveBtn.addEventListener('click', save);
 
 function save(event) {
-    document.getElementById('js-text-save').textContent = count;
+    document.getElementById('js-text-save').textContent += count + " - ";
     count = 0;
 }
 
@@ -38,4 +38,5 @@ resetBtn.addEventListener('click', reset);
 function reset(event) {
     document.querySelector("#counter").textContent = 0;
     count = 0;
+    document.querySelector("#js-text-save").innerText = "";
 }
