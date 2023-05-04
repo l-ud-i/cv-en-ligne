@@ -27,8 +27,6 @@ h6 {
     font-size: 1.5rem;
 }
 
-
-
 .img {
     position: absolute;
     top: 0;
@@ -44,6 +42,12 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.main__ttl {
+    color: var(--fourth-color);
+    border-radius: 1rem;
+    font-family: 'Koho', sans-serif;
 }
 
 .main-p {
@@ -71,6 +75,8 @@ h6 {
 .text {
     margin-top: 1rem;
     text-align: center;
+    color: var(--fourth-color);
+    font-family: 'Dekko', sans-serif;
 }
 
 .text-save {
