@@ -17,10 +17,15 @@
         <header class="header">
                 <a href="index.html"><img class="header__logo" src="img/logo.png" alt="Logo"></a>
                 <h1 class="header__ttl">Portfolio</h1>
-                <a href="#"><img class="header__menu" src="img/menu.svg" alt="menu"></a>
-                <a class="header__button button-cta" href="portfolio.html">portfolio</a>
-                <a class="header__button button-cta" href="contact.html">contact</a>
-        </header>
+                <a class="burger-icon" id="openBtn" href="#"><img class="header__menu" src="img/menu.svg" alt="menu"></a>
+                <div id="mySidenav" class="sidenav">
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+                <a id="closeBtn" href="#" class="close">×</a>
+                </div>
+                <a class="header__button button-cta" href="portfolio.html">Portfolio</a>
+                <a class="header__button button-cta" href="contact.html">Contact</a>
+            </header>
 
         <nav class="nav">
                 <a class="nav__link" href="#js">Javascript</a>
@@ -79,4 +84,6 @@
                         <a class="button-cta-footer" href="contact.html">contact</a>
                 </div>
         </footer>
+<script src="burgermenu.js"></script>
 </body>
+</html>
