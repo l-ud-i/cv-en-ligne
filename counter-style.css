@@ -23,21 +23,14 @@ h6 {
 }
 
 .body {
-    margin: 1rem 0;
-    /* background-image: url(img/gare2.png);
-    background-repeat: no-repeat;
-    background-size: cover; */
+    margin: 1rem;
     font-size: 1.5rem;
 }
 
-/* @media screen and (min-width: 768px) {
-    .header__menu {
-        display: none;
-    }
-} */
+
 
 .img {
-    /* position: absolute; */
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -46,6 +39,7 @@ h6 {
 }
 
 .main {
+    position: relative;
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -76,6 +70,7 @@ h6 {
 
 .text {
     margin-top: 1rem;
+    text-align: center;
 }
 
 .text-save {
@@ -95,6 +90,7 @@ h6 {
 /* HEADER */
 
 .header {
+    position: relative;
     display: flex;
     margin: 3.125rem 2rem 0 2rem;
     gap: 1rem;
