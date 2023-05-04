@@ -219,6 +219,7 @@ h6 {
     }
 }
 
+
 .section__lst {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -341,12 +342,6 @@ h6 {
     padding: 1.5rem;
     text-decoration: none;
     align-self: center;
-}
-
-@media screen and (min-width: 768px) {
-    .section__text-important {
-        font-size: 1.8rem;
-    }
 }
 
 .button-cta-footer {

@@ -186,17 +186,11 @@ h6 {
     font-family: 'Koho', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin: 1rem;
-    padding: .5rem;
+    padding: 1.5rem;
     text-decoration: none;
     align-self: center;
-}
-
-@media screen and (min-width: 768px) {
-    .section__text-important {
-        font-size: 1.8rem;
-    }
 }
 
 .button-cta-footer {
