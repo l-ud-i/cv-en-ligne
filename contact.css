@@ -158,6 +158,14 @@ h6 {
     gap: 2rem;
 }
 
+@media screen and (min-width: 768px) {
+    .footer__cta {
+        margin: 5rem 7.75rem 3.125rem 7.75rem;
+        gap: 10rem;
+
+    }
+}
+
 /* BUTTON */
 
 .button-cta {
