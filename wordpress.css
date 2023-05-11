@@ -70,8 +70,15 @@ h6 {
 }
 
 .header__logo {
-    width: 82px;
-    height: 82px;
+    width: 60px;
+    height: 60px;
+}
+
+@media screen and (min-width: 768px) {
+    .header__logo {
+        width: 82px;
+        height: 82px;
+    }
 }
 
 .header__ttl {
@@ -174,6 +181,7 @@ h6 {
 .footer__cta {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 1rem;
     gap: 2rem;
 }
@@ -202,10 +210,8 @@ h6 {
     text-transform: uppercase;
     text-align: center;
     font-size: 1.5rem;
-    margin: 1rem;
     padding: 1rem;
     text-decoration: none;
-    align-self: center;
 }
 
 /* Sidenav menu */
