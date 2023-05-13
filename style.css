@@ -478,6 +478,7 @@ h6 {
     border-radius: 1rem;
     font-family: 'Koho', sans-serif;
     font-size: 2rem;
+    color: var(--primary-color);
 }
 
 .main-p {
@@ -505,7 +506,7 @@ h6 {
 .text {
     margin-top: 1rem;
     text-align: center;
-    color: var(--fourth-color);
+    color: var(--secondary-color);
     font-family: 'Dekko', sans-serif;
     font-size: 1.25rem;
 }
