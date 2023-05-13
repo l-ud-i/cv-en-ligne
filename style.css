@@ -401,6 +401,19 @@ h6 {
     }
 }
 
+/* LOGOS PAGE */
+
+.img__logo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .img__logo {
+        width: 40%;
+    }
+}
 
 /* FOOTER */
 
