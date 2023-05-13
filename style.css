@@ -435,6 +435,32 @@ h6 {
     }
 }
 
+/* PORTFOLIO PAGE */
+
+.section__content--portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .section__content--portfolio {
+        gap: 5rem;
+    }
+}
+
+.img--portfolio {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .img--portfolio {
+        height: 300px;
+    }
+}
+
 /* JS COUNTER PAGE */
 
 .header__counter {
