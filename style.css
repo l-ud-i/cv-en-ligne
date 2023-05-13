@@ -403,14 +403,35 @@ h6 {
 
 /* LOGOS - DIVERS - NT PAGE */
 
-.img__logo {
+.img__reduce {
     width: 70%;
     margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 768px) {
-    .img__logo {
+    .img__reduce {
         width: 40%;
+    }
+}
+
+/* WORDPRESS PAGE */
+
+.section__text--wordpress {
+    color: var(--primary-color);
+    font-family: 'Dekko', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.img__wp {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .img__wp {
+        width: 100%;
     }
 }
 
