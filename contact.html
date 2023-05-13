@@ -11,7 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Dekko&family=KoHo:wght@700&family=League+Spartan:wght@900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="body">
@@ -37,7 +37,9 @@
         <input class="form__fld" type="email" name="email" id="email" required>
         <label class="form__fld" for="javascript">Votre Message</label>
         <textarea class="form__fld" type="text" name="note" id="note" rows="3" cols="20"></textarea>
-        <input class="form__fld" type="submit" value="Envoyer">
+        <div class="form__fld--btn">
+        <input class="form__fld" type="submit" value="Envoyer" disabled>
+        </div>
     </form>
 
     <footer class="footer">
