@@ -1,10 +1,4 @@
-
-// let count = 5;
-
-// count = count + 5;
-
-// console.log(count);
-
+// COUNTER
 
 // initialize the count to 0
 let count = 0;
@@ -39,4 +33,23 @@ function reset(event) {
     document.querySelector("#counter").textContent = 0;
     count = 0;
     document.querySelector("#js-text-save").innerText = "";
+}
+
+// BURGER MENU
+
+var sidenav = document.getElementById("mySidenav");
+var openBtn = document.getElementById("openBtn");
+var closeBtn = document.getElementById("closeBtn");
+
+openBtn.onclick = openNav;
+closeBtn.onclick = closeNav;
+
+/* Set the width of the side navigation to 250px */
+function openNav() {
+  sidenav.classList.add("active");
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  sidenav.classList.remove("active");
 }
