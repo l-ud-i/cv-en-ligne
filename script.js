@@ -1,13 +1,3 @@
-// log out the count
-const resetBtn = document.getElementById('js-reset-btn');
-resetBtn.addEventListener('click', reset);
-
-function reset(event) {
-    document.querySelector("#counter").textContent = 0;
-    count = 0;
-    document.querySelector("#js-text-save").innerText = "";
-}
-
 // BURGER MENU
 
 var sidenav = document.getElementById("mySidenav");

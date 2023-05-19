@@ -23,3 +23,13 @@ function save(event) {
     document.getElementById('js-text-save').textContent += count + " - ";
     count = 0;
 }
+
+// log out the count
+const resetBtn = document.getElementById('js-reset-btn');
+resetBtn.addEventListener('click', reset);
+
+function reset(event) {
+    document.querySelector("#counter").textContent = 0;
+    count = 0;
+    document.querySelector("#js-text-save").innerText = "";
+}
